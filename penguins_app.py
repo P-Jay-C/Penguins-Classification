@@ -68,7 +68,7 @@ st.subheader("User Input features")
 if file_upload is not None:
     st.write(df)
 else:
-    st.write("Awaiting CSV file to be uploaded.Currentyly ")
+    st.write("Awaiting CSV file to be uploaded.Currently ")
     st.write(df)
 
 #Read the saved classification model
